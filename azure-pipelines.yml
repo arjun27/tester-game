@@ -11,6 +11,9 @@ pool:
   vmImage: 'vs2017-win2016'
 
 steps:
+- script: |
+    ls
+
 - task: RichCodeNavIndexer@0
   inputs:
     serviceConnection: 'rich-code-nav-prod'
