@@ -13,7 +13,7 @@ pool:
 steps:
 - task: RichCodeNavIndexer@0
   inputs:
-    serviceConnection: 'Rich Code Nav'
+    serviceConnection: 'rich-code-nav-prod'
     languages: 'csharp,typescript,java'
-    githubServiceConnection: 'GitHub'
-    environment: 'development'
+    githubServiceConnection: 'arjun27 (5)'
+#    environment: 'development'
