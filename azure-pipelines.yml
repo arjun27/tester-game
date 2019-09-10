@@ -19,4 +19,3 @@ steps:
     serviceConnection: 'rich-code-nav-prod'
     languages: 'csharp,typescript,java'
     githubServiceConnection: 'arjun27 (5)'
-
